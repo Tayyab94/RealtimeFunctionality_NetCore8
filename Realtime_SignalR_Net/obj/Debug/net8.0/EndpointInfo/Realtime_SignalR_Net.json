@@ -5,6 +5,28 @@
     "version": "1.0"
   },
   "paths": {
+    "/notifications/all": {
+      "post": {
+        "tags": [
+          "Realtime_SignalR_Net"
+        ],
+        "parameters": [
+          {
+            "name": "content",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [

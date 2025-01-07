@@ -57,3 +57,4 @@ C:\Users\tayya\source\Repos\Realtime_SignalR_Net\Realtime_SignalR_Net\obj\Debug\
 C:\Users\tayya\source\Repos\Realtime_SignalR_Net\Realtime_SignalR_Net\obj\Debug\net8.0\Realtime_SignalR_Net.pdb
 C:\Users\tayya\source\Repos\Realtime_SignalR_Net\Realtime_SignalR_Net\obj\Debug\net8.0\Realtime_SignalR_Net.genruntimeconfig.cache
 C:\Users\tayya\source\Repos\Realtime_SignalR_Net\Realtime_SignalR_Net\obj\Debug\net8.0\ref\Realtime_SignalR_Net.dll
+C:\Users\tayya\source\Repos\Realtime_SignalR_Net\Realtime_SignalR_Net\obj\Debug\net8.0\Realtime_SignalR_Net.sourcelink.json
