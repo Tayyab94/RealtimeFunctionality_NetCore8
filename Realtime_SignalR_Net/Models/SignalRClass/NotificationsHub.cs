@@ -1,12 +1,17 @@
 ﻿using Microsoft.AspNetCore.SignalR;
+using Realtime_SignalR_Net.Interfaces;
 
 namespace Realtime_SignalR_Net.Models.SignalRClass
 {
-    public sealed class NotificationsHub :Hub
+    public sealed class NotificationsHub :Hub<INotificationsClient>
     {
         public async Task SendNotification(string content)
         {
-            await Clients.All.SendAsync("ReceiveNotification", content);
+
+            await Clients.All.ReceiveNotification(content);
+            
+            //await Clients.All.SendAsync("ReceiveNotification", content); Note: We can lose the SendAsync Method, but only can access ReceiveNotifacation Method, available in an interface
+
         }
 
 
