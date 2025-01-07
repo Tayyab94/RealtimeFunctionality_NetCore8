@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Realtime_SignalR_Net.props" />
+</Project>
