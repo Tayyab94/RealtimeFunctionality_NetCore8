@@ -1,8 +1,11 @@
-﻿using Microsoft.AspNetCore.SignalR;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.SignalR;
 using Realtime_SignalR_Net.Interfaces;
 
 namespace Realtime_SignalR_Net.Models.SignalRClass
 {
+
+    [Authorize]
     public sealed class NotificationsHub :Hub<INotificationsClient>
     {
         public async Task SendNotification(string content)

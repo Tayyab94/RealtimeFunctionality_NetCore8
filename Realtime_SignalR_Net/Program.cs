@@ -48,4 +48,14 @@ app.MapPost("notifications/all",
 
 });
 
+app.MapPost("notifications/singleUser", async (string userId,string content, IHubContext<NotificationsHub, INotificationsClient> context) =>
+{
+
+    await context.Clients.User(userId).ReceiveNotification(content);
+    return Results.NoContent();
+}); 
+
+
+
+
 app.Run();

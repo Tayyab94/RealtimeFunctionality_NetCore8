@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Realtime_SignalR_Net")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2152289034c5bb458fc055daaf4a3970768beeef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a2da7b6ee6e20a6a2235f3491e575c310ce9b95")]
 [assembly: System.Reflection.AssemblyProductAttribute("Realtime_SignalR_Net")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Realtime_SignalR_Net")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
